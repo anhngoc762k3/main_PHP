@@ -1,0 +1,27 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+
+# Ignore PHP-specific files/folders
+vendor/
+*.log
+*.cache
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
